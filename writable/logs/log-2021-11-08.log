@@ -1,0 +1,107 @@
+CRITICAL - 2021-11-08 17:25:02 --> Too few arguments to function App\Controllers\Clientes::editar(), 0 passed in C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->editar()
+#1 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 17:28:44 --> Too few arguments to function App\Controllers\Clientes::editar(), 0 passed in C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->editar()
+#1 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 17:28:54 --> Too few arguments to function App\Controllers\Clientes::editar(), 0 passed in C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->editar()
+#1 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 17:29:03 --> Too few arguments to function App\Controllers\Clientes::editar(), 0 passed in C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->editar()
+#1 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-11-08 17:53:22 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cadastroclientes\app\Views\clientes\ver.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/ver', Array, true)
+#4 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(88): view('clientes/ver', Array)
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->ver('1')
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-08 17:56:14 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cadastroclientes\app\Views\clientes\ver.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/ver', Array, true)
+#4 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(88): view('clientes/ver', Array)
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->ver('1')
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-08 17:56:19 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cadastroclientes\app\Views\clientes\ver.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/ver', Array, true)
+#4 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(88): view('clientes/ver', Array)
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->ver('1')
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-08 17:56:48 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cadastroclientes\app\Views\clientes\ver.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/ver', Array, true)
+#4 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(88): view('clientes/ver', Array)
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->ver('1')
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-08 17:57:17 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cadastroclientes\app\Views\clientes\ver.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/ver', Array, true)
+#4 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(88): view('clientes/ver', Array)
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->ver('1')
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-08 17:57:39 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cadastroclientes\app\Views\clientes\ver.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/ver', Array, true)
+#4 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(88): view('clientes/ver', Array)
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->ver('2')
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-08 18:49:13 --> Undefined constant "success"
+#0 C:\xampp\htdocs\cadastroclientes\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\cadastroclientes\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cadastroclientes\system\Common.php(1092): CodeIgniter\View\View->render('clientes/index', Array, true)
+#3 C:\xampp\htdocs\cadastroclientes\app\Controllers\Clientes.php(25): view('clientes/index', Array)
+#4 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(802): App\Controllers\Clientes->index()
+#5 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 C:\xampp\htdocs\cadastroclientes\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cadastroclientes\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\cadastroclientes\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
